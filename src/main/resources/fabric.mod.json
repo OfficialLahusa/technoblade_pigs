@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "technoblade_pigs",
+  "version": "${version}",
+  "name": "Technoblade Pigs",
+  "description": "A mod that gives pigs a Technoblade crown when named after him.",
+  "authors": [
+    "Lahusa"
+  ],
+  "contact": {
+    "website": "https://github.com/OfficialLahusa",
+    "repo": "https://github.com/OfficialLahusa/technoblade_pigs"
+  },
+  "license": "MIT",
+  "icon": "assets/technoblade_pigs/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.lahusa.technoblade_pigs.TechnobladePigsMod"
+    ]
+  },
+  "mixins": [
+    "technoblade_pigs.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.14",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}

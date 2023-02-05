@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.lahusa.technoblade_pigs.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "PigEntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
