@@ -9,7 +9,17 @@
   ],
   "contact": {
     "website": "https://github.com/OfficialLahusa",
-    "repo": "https://github.com/OfficialLahusa/technoblade_pigs"
+    "repo": "https://github.com/OfficialLahusa/technoblade_pigs",
+    "homepage": "https://github.com/OfficialLahusa/technoblade_pigs",
+    "issues": "https://github.com/OfficialLahusa/technoblade_pigs",
+    "sources": "https://github.com/OfficialLahusa/technoblade_pigs"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/uJxASqmu"
+      }
+    }
   },
   "license": "MIT",
   "icon": "assets/technoblade_pigs/icon.png",
